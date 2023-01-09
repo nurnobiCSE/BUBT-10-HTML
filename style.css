@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main {
+	margin: 50px 0 0 100px;
+	border: 3px solid gray;
+	width: 250px;
+	height: 200px;
+	position: relative;
+}
+
+.main::after {
+	content: "";
+	position: absolute;
+	border-top: 3px solid black;
+	width: 320px;
+	transform: rotate(38.5deg);
+	transform-origin: 0% 0%;
+}
+
+h2{
+	position: absolute;
+}
+
+.time{
+	left: 40%;
+	top: 10%;
+}
+.day{
+	left: 10%;
+	top: 70%;
+}
