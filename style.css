@@ -32,8 +32,10 @@ table,th,td{
 table{
 	margin: 0px auto;
 }
-th,td{
+th{
 	padding: 20px 15px;
+}
+th,td{
 	text-align: center;
 }
 .bold{
@@ -49,8 +51,8 @@ th,td{
 	content: "";
 	position: absolute;
 	border-top: 1px solid black;
-	width: 116px;
-	transform: rotate(29.8deg);
+	width: 126px;
+	transform: rotate(36.8deg);
 	transform-origin: 0% 0%;
 	top: 0;
 	left: 0;
@@ -58,13 +60,41 @@ th,td{
 
 
 .Time {
-	top: 2px;
+	top: 15px;
 	position: absolute;
-	left: 45px;
+	left: 50px;
 }
 
 .Day {
-	top: 25px;
+	top: 45px;
 	position: absolute;
-	left: 10px;
+	left: 20px;
+}
+.p-10{
+	padding: 15px 0 ;
+}
+.bg-gray{
+	background-color: #B9BABD;
+}
+.text-bold{
+	font-weight: bold;
+}
+.text-rotate {
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(90deg);
+	font-weight: bold;
+}
+.signature {
+	position: relative;
+	width: 100%;
+	height: 30px;
+}
+.signature > h4, hr {
+	color: #453F3F;
+	width: 13%;
+	position: absolute;
+	right: 12%;
+	top: 20%;
+	line-height: 20px;
 }
