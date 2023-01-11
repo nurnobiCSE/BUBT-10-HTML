@@ -14,9 +14,8 @@
   	margin-top: 10px;
   }
   .header-title {
-	padding-left: 23%;
 	padding-top: 1%;
-	float: left;
+	padding-right: 10%;
 }
 .faculty {
 	width: 50%;
@@ -92,9 +91,12 @@ th,td{
 }
 .signature > h4, hr {
 	color: #453F3F;
-	width: 13%;
+	width: 16%;
 	position: absolute;
 	right: 12%;
 	top: 20%;
 	line-height: 20px;
+}
+.signature > h4 {
+	right: 10%;
 }
